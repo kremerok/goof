@@ -26,3 +26,27 @@ patch:
   'npm:tunnel-agent:20170305':
     - tap > codecov.io > request > tunnel-agent:
         patched: '2019-07-03T14:43:44.838Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-29T13:47:28.522Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-29T13:47:28.522Z'
